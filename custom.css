@@ -1,0 +1,50 @@
+.topbar {
+	background-color:black;
+	padding : 2%;
+}
+
+H1{
+    font-size :32pt;
+}
+
+img{
+	/*border-style: solid;
+	border-width:2px;
+	color: grey;*/
+}
+
+/*.navbar {
+  position: relative;
+  z-index: 1000;
+  min-height: 50px;*/
+ /* margin : 0px 0px 80px 0px;
+  border: 1px solid transparent; 
+}*/
+
+/*
+<li class="active"><a href="#"><i class="fa fa-home"></i></a></li>
+            <li><a href="AboutMe.html"><i class="fa fa-male"></i></a></li>
+			<li><a href="Portfolio.html"><i class="fa fa-file-text"></i></a></li>  
+			<li><a href="Projects.html"><i class="fa fa-sitemap"></i></a></li>
+			<li><a href="Contact.html"><i class="fa fa-phone-square"></i></a></li>  
+			<li><a href="Gallery.html"><i class="fa fa-photo"></i></a></li>   
+			<li><a href="Philosophy.html"><i class="fa fa-stethoscope"></i></a></li>
+			<li><a href="External.html"><i class="fa fa-file-archive-o"></i></a></li>
+*/
+
+body {
+  /*min-height: 2000px;*/
+  padding-top: 70px;
+}
+
+hr{
+ border-top: 2px solid #000000;
+}
+
+a{
+  target: _blank;
+}
+
+li{
+  margin: 5px 0;
+}
