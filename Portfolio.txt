@@ -1,46 +1,0 @@
-Toggle navigation Venktesh Pandey 
-	•	Home
-	•	Research
-	•	Portfolio
-	•	Projects
-	•	Contact
-Portfolio 
-Download Two-page Resume 
-
-Download CV 
-
-Career Objective: 
-To build on applied research skills and utilize them to solve real world transportation problems
-
-Education 
-	•	Doctor of Philosophy (Transportation Engineering)  The University of Texas at Austin  2016-2019 (Expected)  GPA - 3.97/4.0 
-	•	Master of Science (Transportation Engineering)  The University of Texas at Austin  2014-2016  GPA - 3.96/4.0  Thesis title - Optimal dynamic pricing for managed lanes with multiple entrances and exits: Download pdf 
-	•	Bachelor of Technology (Civil Engineering) with Honors  Minor in Center of Studies in Resource Engineering  Indian Institute of Technology, Bombay  2010-2014  CPI - 9.54/10.0  Thesis Title - Developing Simulation Model for Indian Road networks using TRANSIMS Download pdf 
-Skills 
-	•	Languages - Java, Python, C++, HTML/CSS 
-	•	Softwares:
-	◦	Proficient: MATLAB, R, LaTeX, SPSS, SciLab, ArcGIS 
-	◦	Experienced: TransCAD, ERDAS-Imagine, COM-Interface 
-	•	Modeling experience in TRANSIMS, MATSIM, PTV-VISSIM, VISTA (Dynamic Traffic Assignment), ANY-LOGIC 
-Awards and Honors 
-	•	Recipient, Milton Pikarsky Award for Outstanding Masters Thesis in Science and Technology, 2017 
-	•	Winner, Texas District Collegiate Traffic Bowl 2015, Institute of Transportation Engineers 
-	•	Winner, Potential Professor Competition, Aakaar 2014 (Civil Engineering Festival of IIT-Bombay 
-	•	Department Special Mention - Dept. of Civil Engineering IIT-Bombay Class of 2014 
-	•	Recipient, Undergraduate Research Award, 2013 
-	•	Recipient of Certificate of Merit, Indian National Mathematics Olympiad 2010 
-	•	NTSE- 2008 Scholar 
-	•	Awarded Certificate of Merit, Indian National Mathematics Olympiad 2010 
-Internship/Work Experience 
-	•	Graduate Research Assistant  University of Texas at Austin  August 2014-present  Involved in projects incorporating facets of Network modelling, Traffic management strategies and Congestion Pricing. Visit Projects for more details.  
-	•	Research Intern  Future Cities Laboratory, Singapore  May 2013- July 2013  Worked on developing traffic-light meta-model in MATSIM.  
-Volunteer/ Positions of Responsibility 
-	•	Vice President, ITE UT-Austin Student Chapter  University of Texas Austin; Nov 2014- Oct 2015
-	•	Head, Department Academic Mentorship Programme  IIT-Bombay, Department of Civil Engineering; Aug 2013- March 2014 
-	•	Founding Manager, Abhyuday : Competitions  Social Festival, IIT-Bombay; Jan 2014- March 2014
-	•	Volunteer (non profit organizations): Abhyasika (Mumbai; 2012-2014) , AID-Austin(Austin; 2014-Present)
-	•	Event Coordinator: Indian Ocean Concert Austin (Sept 2015), Mood Indigo Competitions (2011), Techfest (2012) 
-
-
-Created by Venktesh Pandey | Thanks to Bootswatch for Readable theme | Powered by Twitter Bootstrap | Last Updated January, 2018
-

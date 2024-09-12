@@ -1,25 +1,181 @@
 <!DOCTYPE html>  
 <html>  
   <head>  
-    <title>Venktesh Pandey
+    <title>A&amp;T Transportation Modeling Lab
 	</title>  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <!-- Bootstrap -->  
 	<link href="font-awesome.css" rel="stylesheet">
     <link href="bootstrap_flatlyTheme.css" rel="stylesheet" media="screen">  
     <link href="custom.css" rel="stylesheet" media="screen">
+    <!-- Add the favicon next to the title -->
+    <link rel="icon" type="image/png" href="TML_logo.png">
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+		<script src="bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->  
     <!--[if lt IE 9]>  
       <script src="bootstrap-3.0.0/assets/js/html5shiv.js"></script>  
       <script src="bootstrap-3.0.0/assets/js/respond.min.js"></script>  
-    <![endif]-->  
+    <![endif]--> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .content {
+            flex: 1;
+            min-width: 300px;
+        }
+        .vision {
+            background-color: #f0f8ff;
+            border-left: 5px solid #4682b4;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #1e4b6e;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        .research-areas {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .research-areas ol {
+            padding-left: 20px;
+        }
+        .research-areas li {
+            margin-bottom: 10px;
+        }
+        .keywords {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .carousel {
+				    width: 100%;
+				    position: relative;
+				    overflow: hidden;
+				    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsiveness */
+				    height: 0;
+				}
+
+				.carousel-inner {
+				    width: 500%;
+				    display: flex;
+				    transition: transform 5s ease-in-out;
+				    animation: slide 25s infinite;
+				}
+        
+
+				.carousel-item {
+				  width: 20%;
+				  height: 100%;
+				}
+
+				.carousel-item img {
+				  width: 100%;
+				  height: 100%;
+				  object-fit: cover;
+				}
+
+				@keyframes slide {
+				  0%, 20% {
+				    transform: translateX(0);
+				  }
+				  20.01%, 40% {
+				    transform: translateX(-20%);
+				  }
+				  40.01%, 60% {
+				    transform: translateX(-40%);
+				  }
+				  60.01%, 80% {
+				    transform: translateX(-60%);
+				  }
+				  80.01%, 100% {
+				    transform: translateX(-80%);
+				  }
+				}
+
+				.carousel-control {
+				  position: absolute;
+				  top: 50%;
+				  transform: translateY(-50%);
+				  width: 50px;
+				  height: 50px;
+				  background: rgba(0, 0, 0, 0.5);
+				  color: white;
+				  display: flex;
+				  align-items: center;
+				  justify-content: center;
+				  text-decoration: none;
+				  font-size: 24px;
+				}
+
+				.carousel-control.left {
+				  left: 10px;
+				}
+
+				.carousel-control.right {
+				  right: 10px;
+				}
+
+				.carousel-indicators {
+				  position: absolute;
+				  bottom: 10px;
+				  left: 50%;
+				  transform: translateX(-50%);
+				  display: flex;
+				  list-style: none;
+				  padding: 0;
+				  margin: 0;
+				}
+
+				.carousel-indicators li {
+				  width: 10px;
+				  height: 10px;
+				  background: rgba(255, 255, 255, 0.5);
+				  border-radius: 50%;
+				  margin: 0 5px;
+				}
+
+				.carousel-indicators li.active {
+				  background: white;
+				}
+    </style> 
+
+
   </head>  
   <body>
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 	    <div class="navbar-header">
-		  <a class="navbar-brand" href="#"></i> Venktesh Pandey</a>
+	    	<a class="navbar-brand" href="#">
+          <img src="TML_logo_full.png" alt="TML Logo" style="width:105px;" class="navbar-logo">
+        </a>
+		  
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -30,9 +186,11 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
+			<li><a href="People.html">People</a></li>
 			<li><a href="Research.html">Research</a></li>
 			<li><a href="Teaching.html">Teaching</a></li>
 			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="NewsGallery.html">News and Gallery</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -43,32 +201,73 @@
 	<!-- <img src="Pandey_Portrait.jpg" alt="Venktesh" align="left" width="250" height="400"  class="img-responsive" style="padding : 20px 20px 20px 20px;"> -->
 	<div class="container">
 	<!--<div class="page-header"> </div> -->
-	
 
-	<div class="row">
-		<div class="col-md-3">
-			<img src="Pandey_Portrait.jpg" alt="Venktesh" align="left" width="250" height="400"  class="img-responsive" style="padding : 20px 20px 20px 20px;">
+		<div class="carousel" id="myCarousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item">
+		      <img src="groupimage1.jpg" alt="Slide 1">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="ResearchOverview.png" alt="Slide 2">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="groupimagecollagev2.jpg" alt="Slide 3">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="groupimagecollagev3.jpg" alt="Slide 4">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="pic_group_Fall2024.jpg" alt="Slide 5">
+		    </div>
+		  </div>
+		  
+		  <!-- <a class="carousel-control left" href="#myCarousel" role="button">
+		    &#10094;
+		  </a>
+		  <a class="carousel-control right" href="#myCarousel" role="button">
+		    &#10095;
+		  </a>
+		  
+		  <ol class="carousel-indicators">
+		    <li class="active"></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		  </ol> -->
 		</div>
-		<div class="col-md-9">
-			<p>
-			<!-- <img src="Pandey_Portrait.jpg" alt="Venktesh" align="left" width="250" height="400"  class="img-responsive" style="padding : 20px 20px 20px 20px;"> -->
-			<blockquote> <p> For what it's worth, it's never too late to be whoever you want to be.<small><em>My Inspiration</em></small> </p></blockquote>
-			<br> 
-			I am Venktesh Pandey, an Assistant Professor in the Department of Civil, Architectural, and Environmental Engineering at the <a href="https://www.ncat.edu/", target="_blank">North Carolina Agricultural and Technical State University</a>. 
 
-			Prior to joining N.C. A&T, I completed my Ph.D. in Department of Civil, Architectural, and Environmental Engineering (CAEE) at <a href="http://www.utexas.edu" target="_blank">The University of Texas at Austin</a> and worked as a Project Associate at the Indian Institute of Science, Bangalore.
+		
 
-			</p>
-			<p>
-			The core area of my research integrates intelligent transportation systems (ITS) and emerging future mobility services in traffic operations and transportation planning models for the long-term future. In particular, my research addresses following specific challenges:
-			<ol>
-				<li> how to adapt assumptions on driver behavior accounting for new sources of connection and information availability, </li>
-				<li> how to develop computationally efficient models for large-scale transportation planning with multiple travel modes and emerging mobility services, </li>
-				<li> how the competition among ITS service providers impact the control and planning of transportation systems, and </li>
-				<li> how to incorporate mega data streams into long-term planning models and simulation. </li>
-			</ol>
-			Some of the commonly used key words in my research include network modeling, traffic assignment models, congestion pricing, reinforcement learning, adaptive routing, Markov decision process, and ridesharing mobility. Feel free to drop me an email if you want to talk about any of these!
-			</p>
+	<div class="container">
+      <div class="content">
+        <h1>Welcome to the Transportation Modeling Lab (TML) at North Carolina Agricultural and Technical State University.</h1>
+        
+        <div class="vision">
+            <h2>Lab Vision</h2>
+            <p>Harnessing emerging technologies and mobility services to create safe, sustainable, equitable, and resilient transportation solutions that empower communities and improve the movement of people and goods.</p>
+        </div>
+        
+        <div class="research-areas">
+            <h2>Core Research Areas</h2>
+            <p>The Transportation Modeling Lab integrates intelligent transportation systems (ITS) and emerging future mobility services in traffic operations and transportation planning models for the long-term future. Our areas of interest include:</p>
+            <ol>
+                <li>Modeling equity and sustainability in design and delivery of future transportation systems</li>
+                <li>Developing efficient computational algorithms to solve current transportation and logistics problems with innovative integration of foundational transportation principles</li>
+                <li>Transportation planning and operations in the era of real-time information and mobility-as-a-service (such as express lanes, parking search, real-time logistics, and ridesharing)</li>
+                <li>Interpretable, multiobjective stochastic control of intelligent transportation services and autonomous systems using data-driven algorithms</li>
+                <li>Smart cities and integrated infrastructure models using networks theory</li>
+            </ol>
+        </div>
+        
+        <p class="keywords">Keywords: network modeling, congestion pricing, equity and accessibility, reinforcement learning, adaptive routing, and shared mobility.</p>
+      </div>
+    </div>
+		<div class="row">
+			<div class="col-md-12">
+				<p> The graphic below highlights the research focus at the TML lab in yellow ellipses within the context of transportation and the integrated infrastructure framework. </p>
+					<img src="ResearchOverview.png" alt="Overview" align="center" class="img-responsive" style="padding : 20px 20px 20px 20px;">
+					<p> <small><i> For those unfamiliar, the Manheim-Florian-Gaudry framework, detailed in <a href="https://doi.org/10.1016/0191-2607(80)90111-9" target="_blank">Manheim (1980)</a> and <a href="https://doi.org/10.1016/0191-2615(80)90029-6" target="_blank">Florian and Gaudry (1980)</a>, and refined in <a href="https://www.sciencedirect.com/book/9780128136133/informed-urban-transport-systems" target="_blank">Chow (2018)</a>, models transportation systems through the interaction between an activity system (A) and a transportation system (T). It employs a demand procedure (D) to derive transportation needs from the activity system and a performance procedure (P) to evaluate the transportation system’s response. This framework achieves market equilibrium (X) between the supply (S) and the demand (D) resulting in a set of system states (F), including operator decisions, user flows, and link costs, at a short-term operational level. Long-term adjustments, influenced by factors like changes in locations (L), travel times, or resource needs, affect demand and supply and require feedback for resource allocation and design changes. Environmental factors (E), such as climate and urban density, further distinguish system performances across different cities.</i></small> </p>
+			</div>		
 		</div>
 	</div>
 
@@ -85,36 +284,12 @@
 			</ul>
 		<li> Ridesharing mobility </li>
 	</ol> -->
-  	<br> <br>
-	
-	
-	<p>
-	<center>
-	<!--My career objective is to develop an understanding of existing transportation technologies, and create tools which can extract their usefulness for the vision of sustainable transportation. I am working towards making the tools in my research available open source so the ideas of my research are easily accessible to other researchers. My Ph.D. dissertation is titled "Dynamic Pricing and Long-term Planning Models for Managed Lanes with Multiple Entrances and Exits" that is focused on improving the current state-of-the-art of the models for managed lanes with multiple access points.<br><br>-->
-	<a class="btn btn-primary" href="CV_Venktesh.pdf" target="_blank">Download CV [PDF]</a> (last updated: August, 2020) <br>
-	<!--Download Curriculum Vitae [<a href="CV_Venktesh_Aug2019", target="_blank"> pdf</a>; 54KB] (last updated, August, 2020) -->
-	
-	<!--My hobbies include volunteering for activities involving social service, listening to music, and mentoring people. I also enjoy teaching and want to pursue that as my passion. Long distance running is my new found hobby. I am training for my fourth half marathon in February 2018. -->
-	</center>
-	</p>
 
-  <p>
-    <h2> News: </h2>
-    <br>
-    <ul>
-      <li> <b> August 2020: </b>I will be joining <a href="https://www.ncat.edu/", target="_blank">North Carolina Agricultural and Technical (N.C. A&T) State University </a> as an Assistant Professor in the Department of Civil, Architectural and Environmental Engineering in Fall 2020. <a href="https://www.ncat.edu/provost/academic-affairs/welcome-new-faculty.php" target="_blank">[Welcome article]</a> </li>
-      <li> <b> July 2020: </b>Our paper titled "Deep reinforcement learning algorithm for dynamic pricing of express lanes with multiple access locations" was accepted for publication in <i> Transportation Research Part C: Emerging Technologies </i>. <a href="https://authors.elsevier.com/a/1bXvW,M0mRH3E2", target="_blank">[PDF; freely accessible till Sep 27, 2020.]</a></li>
-      <li> <b> May 2020: </b> I started working as a Project Associate at the Center for infrastructure, Sustainable Transportation and Urban Planning (CiSTUP) at Indian Institute of Science, Bangalore, working with <a href="http://civil.iisc.ernet.in/~tarunr/index.html", target="_blank">Dr. Tarun Rambha</a>.</li>
-
-    </ul>
-
-  </p>
-	<br><br>
   
-<hr>  
+<hr>
 <footer>  
-<p class="text-muted"><center><small>Created by Venktesh Pandey | 
- Thanks to <a href="http://bootswatch.com" target="_blank"> Bootswatch </a> for <a href="https://bootswatch.com/3/flatly/" target="_blank"> Flatly </a> theme | Powered by <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> | Last Updated August, 2020</small> | <a href="http://in.linkedin.com/pub/venktesh-pandey/82/697/956" target="_blank"><img src="linkedin-icon.png" style="width:20px;height:20px;"></a> <a href="https://scholar.google.com/citations?user=l3ValXEAAAAJ&hl=en&oi=ao" target="_blank"><img src="google-scholar-icon.jpg" style="width:20px;height:20px;"></a> <a href="https://github.com/venktesh22" target="_blank"><img src="github_icon.png" style="width:20px;height:20px;"></a> <a href="https://twitter.com/_Venktesh_" target="_blank"><img src="twitter_icon.png" style="width:20px;height:20px;"></a>
+<p class="text-muted"><center><small> Created by Venktesh Pandey | Logo Credits: Oladimeji Alaka | 
+ Thanks to <a href="http://bootswatch.com" target="_blank"> Bootswatch </a> for <a href="https://bootswatch.com/3/flatly/" target="_blank"> Flatly </a> theme | Powered by <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> | Last Updated September, 2024</small> 
  </center> 
 </p>
 </footer>
